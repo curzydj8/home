@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>火星极客 · 个人主页设计方案对比</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f4f5f7; color: #1a1a1a; line-height: 1.6; padding: 40px 20px; }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 28px; margin-bottom: 8px; }
+  .sub { color: #666; margin-bottom: 32px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+  .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; }
+  .card img { width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin-bottom: 14px; display: block; }
+  .card h2 { font-size: 19px; margin-bottom: 4px; }
+  .tag { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 999px; margin-bottom: 10px; }
+  .t1 { background: #0a0f1e; color: #38bdf8; }
+  .t2 { background: #eff6ff; color: #2563eb; }
+  .t3 { background: #0f172a; color: #818cf8; }
+  .card p { color: #555; font-size: 14px; margin-bottom: 16px; }
+  .btn { display: inline-block; background: #111; color: #fff; text-decoration: none; padding: 9px 18px; border-radius: 8px; font-size: 14px; margin-right: 8px; }
+  .btn.ghost { background: #fff; color: #111; border: 1px solid #d1d5db; }
+  .note { margin-top: 32px; color: #888; font-size: 13px; }
+  .note p { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>火星极客 · 个人主页设计方案对比</h1>
+  <p class="sub">3 套主页设计由 Google Stitch 生成（2026-11-16），均为个人学习门户首页概念稿：左上 Ubuntu Server / Excel / 数学三个学习板块，右上每日动态，左下 AI 专栏，右下工具箱。已定稿设计 2（清爽浅色极简）为主页，其余两套留档对比。</p>
+  <div class="grid">
+    <div class="card">
+      <img src="preview-1.png" alt="深色科技风预览">
+      <span class="tag t1">设计 1 · 深色科技风</span>
+      <h2>Mars Geek Tech Portal</h2>
+      <p>近黑深蓝底 + 青蓝荧光色，顶部导航带搜索框和 UTC+8 时钟，三张学习大卡 + 每日动态订阅流 + AI 专栏 + 32 款工具箱，底部带页脚。最有极客味。</p>
+      <a class="btn" href="design-1-dark-tech.html">打开预览</a>
+      <a class="btn ghost" href="https://stitch.google.com/projects/13686919098071900991">Stitch 项目</a>
+    </div>
+    <div class="card">
+      <img src="preview-2.png" alt="清爽浅色预览">
+      <span class="tag t2">设计 2 · 清爽浅色极简</span>
+      <h2>Mars Geek Learning Portal</h2>
+      <p>白底大留白、细边框柔和阴影，蓝色强调色。同样四块内容，另附可扩展占位卡（知识库 Wiki、周刊订阅、资源提交），以后加板块直接往上贴。最干净。</p>
+      <a class="btn" href="design-2-light.html">打开预览</a>
+      <a class="btn ghost" href="https://stitch.google.com/projects/11761578145211430268">Stitch 项目</a>
+    </div>
+    <div class="card">
+      <img src="preview-3.png" alt="仪表盘风格预览">
+      <span class="tag t3">设计 3 · 仪表盘风格</span>
+      <h2>Mars Geek Space Deck</h2>
+      <p>深色仪表盘，左侧 240px 固定边栏导航，主区顶部是学习数据小组件，三张学习卡带研读进度，右侧每日动态实时栏。信息密度最高，最像一个“学习驾驶舱”。</p>
+      <a class="btn" href="design-3-dashboard.html">打开预览</a>
+      <a class="btn ghost" href="https://stitch.google.com/projects/15141939244174020208">Stitch 项目</a>
+    </div>
+  </div>
+  <div class="note">
+    <p>说明：3 套均为首页静态概念稿，卡片上的 9 个链接都是真实地址，点得通。设计 3 里仪表盘上的阅读时长、连续天数、工具调用次数、研读进度这些数字是 Stitch 填的占位数据，定版后换成真实数据或去掉。</p>
+    <p>已修正一处：设计 3 的 AI 专栏原写“收录 140+ 里程碑”，实际 AI 专栏是 38 条，已改成 38 个。</p>
+  </div>
+</div>
+</body>
+</html>
